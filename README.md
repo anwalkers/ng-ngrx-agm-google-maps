@@ -1,4 +1,6 @@
-# GoogleTest
+# Angular NgRx Google Maps
+
+![Image](images/Image.png)
 
 This project explored using ngrx with Angular Google Maps.
 
