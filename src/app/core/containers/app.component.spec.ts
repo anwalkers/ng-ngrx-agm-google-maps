@@ -1,12 +1,17 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { AgmCoreModule } from '@agm/core';
+import { MapComponent } from '../components/map/map.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        MapComponent,
+        
       ],
+      imports: [AgmCoreModule.forRoot()]
     }).compileComponents();
   }));
 
